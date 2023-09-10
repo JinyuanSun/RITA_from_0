@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 RITA/seq-128/
+RITA/wandb/

@@ -1,0 +1,24 @@
+{
+  "_name_or_path": "Seledorn/RITA_s",
+  "architectures": [
+    "RITAModelForCausalLM"
+  ],
+  "auto_map": {
+    "AutoConfig": "rita_configuration.RITAConfig",
+    "AutoModel": "rita_modeling.RITAModel",
+    "AutoModelForCausalLM": "rita_modeling.RITAModelForCausalLM",
+    "AutoModelForSequenceClassification": "rita_modeling.RITAModelForSequenceClassification"
+  },
+  "d_feedforward": 3072,
+  "d_model": 768,
+  "dropout": 0.0,
+  "eos_token_id": 2,
+  "initializer_range": 0.02,
+  "max_seq_len": 1024,
+  "model_type": "rita",
+  "num_heads": 12,
+  "num_layers": 12,
+  "torch_dtype": "float16",
+  "transformers_version": "4.18.0",
+  "vocab_size": 26
+}
