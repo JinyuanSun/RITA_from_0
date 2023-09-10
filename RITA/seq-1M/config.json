@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "RITAModelForCausalLM"
+  ],
+  "d_feedforward": 512,
+  "d_model": 128,
+  "dropout": 0.0,
+  "eos_token_id": 2,
+  "initializer_range": 0.02,
+  "max_seq_len": 1024,
+  "model_type": "rita",
+  "num_heads": 4,
+  "num_layers": 6,
+  "torch_dtype": "float32",
+  "transformers_version": "4.33.1",
+  "vocab_size": 26
+}
